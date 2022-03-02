@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .container{
@@ -208,7 +212,8 @@
 /* skills */
 
 .skills{
-    padding-bottom: 237px;
+    padding-top: 100px;
+    padding-bottom: 137px;
 }
 
 .frame{
@@ -327,6 +332,9 @@
 
 /* portfolio */
 
+.portfolio{
+    padding-top: 100px;
+}
 
 .portfolio h1{
     text-align: center;
@@ -358,6 +366,12 @@
     color: #fff;
     padding: 0;
     top: -15px;
+    width: 100%;
+    overflow: hidden;
+}
+.portfolio .line .examples p{
+    width: 100%;
+
 }
 
 .images{
@@ -385,4 +399,113 @@
 
 .burger img{
     width: 533px; 
+}
+
+.palma img{
+    width: 761px;
+}
+
+.samolot img{
+    width: 533px;
+}
+
+.nieruchomosci img{
+    width: 653px;
+}
+
+.statek img{
+    width: 409px;
+}
+
+.dzwig img{
+    width: 681px;
+}
+
+.tir img{
+   width: 648px; 
+}
+
+.med img{
+    width: 974px;
+}
+
+.barber img{
+    width: 459px;
+}
+
+.ilona img{
+    width: 523px;
+}
+
+.natalia img{
+    width: 905px;
+}
+
+.buty img{
+    width: 370px;
+}
+
+.me img{
+    width: 281px;
+}
+
+.zako img{
+    width: 536px;
+}
+
+.black img{
+    width: 602px;
+}
+
+.balenciaga img{
+    width: 404px;
+}
+
+/* contact */
+
+.contact{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.contact .row{
+    justify-content: space-around;
+}
+
+.contact .col{
+    border-radius: 30px;
+    border: 3px solid #01bf71;
+    background-color: #01bf71;
+    padding: 68px 64px;
+    margin-bottom: 305px;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contact .col p{
+    padding: 20px 0;
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact .col p img{
+    margin-right: 16px;
+    width: 62px;
+}
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+
+}
+.footer img{
+    width: 100%;
 }
