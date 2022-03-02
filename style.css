@@ -509,3 +509,38 @@ html{
 .footer img{
     width: 100%;
 }
+
+.socialicons{
+    margin: 200px auto 40px;
+    width: 50%;
+}
+
+.socialicons img{
+    width: 62px;
+    margin: 0 25px;
+}
+
+.linksfooter{
+    width: 50%;
+    margin: auto;
+}
+
+.linksfooter a{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.contentfooter{
+    transform: translateY(-600px);
+}
